@@ -1,0 +1,52 @@
+@media(min-width: 768px) {
+    #slider {
+        .carousel-caption {
+            bottom: 15em;
+            h5 {
+               font-size: 4em;
+               text-shadow: #000 2px 3px; 
+            }
+            .btn {
+                font-size: 1.2em;
+                padding: 0.6em 1.6em;
+            }
+        }
+
+}
+.carousel-indicators {
+    bottom: 7em;
+}
+#mini-banners {
+    margin-top: -6em;
+}
+
+.title {
+    font-size: 2.4em;
+    &:before {
+        bottom: 1.5em;
+    }
+}
+
+ #featured-images .banner-content {
+        opacity: 0 !important;
+    }
+
+    #info-content {
+        padding: 3em !important;
+    }
+
+    #news-container {
+        padding-right: 2em !important;
+    }
+
+    #links-container {
+        padding-left: 2em !important;
+    }
+
+    #contact-container {
+        padding: 0 2em !important;
+        border-left: 1px solid #7a7a7a !important;
+        border-right: 1px solid #7a7a7a !important;
+    }
+}
+
